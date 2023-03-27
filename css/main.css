@@ -1,0 +1,59 @@
+#container{
+  display: grid;  
+grid-template-columns: 1fr 3fr 0.5fr 3fr 1fr;
+grid-template-rows: calc(5vh) calc(8vh) calc(5vh) calc(29.5vh) calc(5vh) calc(29.5vh) calc(5vh) calc(8vh) calc(5vh);
+}
+
+#container .foto1{
+background-color: blue;
+grid-column: 2/3;
+grid-row: 4/5;
+padding: 5px;
+border-radius: 4px;
+}
+
+img{
+width: 100%;
+height: 100%;
+}
+
+#container .texto1{
+background-color: red;
+grid-column: 4/5;
+grid-row: 4/5;
+border-radius: 4px;
+text-align: center;
+border: 5px solid yellow;  
+}
+
+#container .foto2{
+background-color: blue;
+grid-column: 4/5;
+grid-row: 6/7;
+padding: 5px;
+border-radius: 4px;
+}
+
+#container .texto2{
+background-color: yellow;
+grid-column: 2/3;
+grid-row: 6/7;
+border-radius: 4px;
+text-align: center;
+border: 5px solid red;
+}
+
+#container h1{
+grid-column: 2/5;
+grid-row: 2/3;
+text-align: center;
+text-decoration-line: underline;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: oblique;
+font-size: 5ch;
+color: white;
+}
+
+body{
+background-image: linear-gradient(black, yellow)
+}
